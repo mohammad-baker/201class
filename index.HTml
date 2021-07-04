@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get the jop</title>
+    <style>
+        h1{
+    
+            background-color: black;
+            color: blanchedalmond;
+            text-align: center;
+        }
+        footer{
+            text-align: center;
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>Class 1 Lab</h1>
+        <nav>
+            <ul>
+                <li>name</li>
+                <li>more</li>
+                <li>about</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p style="text-align: center;color: crimson;background-color: darkkhaki;">what's your name ?</p>
+        <p style="background: chartreuse;color: black;">what's your age</p>
+        <p style="background: rgb(131, 48, 199);color: rgb(230, 9, 9);">do you have any relative work here ?</p>
+        <p style="background: rgb(55, 22, 133);color: rgb(181, 240, 45);">what's the employee name ?</p>
+    </main>
+    <footer>
+        &caps;work
+        <script>
+            let usrename =prompt('what\'s your name ?');
+            alert("hi "+ usrename + " you are weclome");
+            console.log("to know the name of the user");
+            let age =prompt('what\'s your age ?') ; 
+            alert("Mr/Ms "+usrename+" you have "+age +" years old");
+            console.log("to know more about him lik his age");
+            let relative =prompt('do you have any relative work here ?');
+            console.log("to know the if he had a relative wor in the company");
+            if(relative == 'yes'){
+                let relativename =prompt('what\'s the employee name ?')  
+                alert("the name of your relative emplpyee is " + relativename +" MR/MS " + usrename)
+                alert("to check again your name "+usrename +" your age is "+age+"the relative employee is "+relativename)
+                console.log("know the name of the employee");
+
+            }
+            else if (relative == "no"){
+                alert("Mr/Ms " + usrename +" you don\'t have any relative work here since you answer "+ relative)
+                alert("to check again your name "+usrename +" your age is "+age+"with no relative work her")
+
+            }
+            else {
+                alert("okay then")
+                alert("to check again your name "+usrename +" your age is "+age)
+            }
+            
+        </script>
+    </footer>
+</body>
+</html>
